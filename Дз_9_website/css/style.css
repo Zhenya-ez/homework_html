@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 0 204px;
+	border-bottom: 1px solid #c4c4c4;
+	width: 100%;
+}
+
+.header_top {
+	height: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav {
+	display: flex;
+	column-gap: 48px;
+}
+
+.header_nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.icons {
+	display: flex;
+}
+
+.icons img {
+	margin-left: 24px;
+}
+
+.icons_mobile {
+	display: none;
+}
+
+/* Кнопка из 3-х полосок */
+.button_mobile {
+    width: 60px;
+    height: 60px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button_mobile span {
+    width: 48px;
+    height: 7px;
+    background-color: rgba(22, 89, 90, 1);
+    border-radius: 5px;
+    position: relative;
+    transition: background-color .3s;
+}
+
+/* Для того, чтобы не копировать код одной полоски */
+.button_mobile span::before, .button_mobile span::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-color: rgba(22, 89, 90, 1);
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+.button_mobile span::before {
+    top: -15px;
+    transition-property: top, transform;
+    transition-duration: .3s, .3s;
+    transition-delay: .3s, 0s;
+}
+
+.button_mobile span::after {
+    bottom: -15px;
+    transition-property: bottom, transform;
+    transition-duration: .3s, .3s;
+    transition-delay: .3s, 0s;
+}
+
+/* При нажатии полоска исчезает */
+.active span {
+    background: none;
+}
+
+/* При нажатии нижняя полоска станет под углом 45 градусов */
+.active.button_mobile span::before {
+    transition-delay: 0s, .3s;
+    top: 0;
+    transform: rotate(45deg);
+}
+
+/* При нажатии нижняя полоска станет под углом -45 градусов */
+.active.button_mobile span::after {
+    transition-delay: 0s, .3s;
+    bottom: 0;
+    transform: rotate(-45deg);
+}
+
+.slider {
+	position: relative;
+}
+
+#carouselExampleIndicators {
+	width: 100%;
+	height: 671px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.bg_mobile {
+	display: none;
+}
+
+.ghost_title {
+	position: absolute;
+	height: 80px;
+	top: 460px;
+	font-family: "Playfair Display", serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 80px;
+	letter-spacing: 0.03em;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.gallery {
+}
+
+.box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title_gallery {
+	text-align: center;
+	font-family: "Playfair Display", serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: 0.03em;
+	margin-top: 89px;
+}
+
+.marakesh_pc,
+.siemreap_pc,
+.stanbul_pc {
+	margin: 39px 0 16px 0;
+}
+
+.marakesh_mob,
+.siemreap_mob,
+.stanbul_mob {
+	display: none;
+}
+
+.marakesh_title,
+.siemreap_title,
+.stanbul_title {
+	padding: 0 0 26px 0;
+	text-align: center;
+	font-family: "Playfair Display", serif;
+}
+
+.marakesh_text,
+.siemreap_text,
+.stanbul_text {
+	width: 295px;
+	height: 320px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 24px;
+	border-left: 2px solid #ed8651;
+	padding: 0 0 0 23px;
+}
+
+.marakesh_text {
+	height: 245px;
+}
+
+.gray_text {
+	color: #999999;
+	padding-left: 10px;
+}
+
+.footer_pc {
+	background: #16595a;
+	height: 90px;
+}
+
+.footer_mobile, .footer_nav {
+	display: none;
+}

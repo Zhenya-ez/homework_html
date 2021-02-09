@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div id="wrap"></div>
+        <button id="target">add some bock</button>
+
+        <script>
+
+			let target = document.getElementById('target');
+			target.onclick = function (e) {
+				let boxText = document.createElement('div');
+				boxText.innerText = 'asdasdad';
+				let wrap = document.getElementById('wrap');
+				wrap.innerText = '';
+				wrap.appendChild(boxText);
+
+				let b = false;
+				b = !b;
+			};
+
+        </script>
+
+
+    </body>
+</html>

@@ -1,0 +1,207 @@
+@media screen and (max-width: 576px) {
+	html,
+	body {
+		overflow-x: hidden;
+	}
+
+	body {
+		width: 576px;
+		margin: 0 auto;
+	}
+
+	.header {
+		padding: 0 33px;
+	}
+
+	.header_top {
+		position: relative;
+	}
+
+	.header_nav {
+		position: absolute;
+		flex-direction: column;
+		background: #ffffff;
+		z-index: 10;
+		left: 108%;
+		top: 93px;
+		align-items: center;
+		transition: left 500ms;
+		width: 361px;
+		height: 466px;
+
+		font-size: 26px;
+		line-height: 60px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+	}
+
+	.nav_item {
+		padding-top: 47px;
+		width: 100%;
+		height: 100%;
+		border-bottom: 1px solid #dbe1d9;
+	}
+
+	.header_top.active .header_nav {
+		left: 182px;
+	}
+
+	.icons {
+		display: none;
+	}
+
+	.icons_mobile {
+		display: flex;
+	}
+
+	.icons_mobile img {
+		padding-right: 55px;
+	}
+
+	.button_mobile {
+		display: flex;
+	}
+
+	#carouselExampleIndicators {
+		display: none;
+	}
+
+	.bg_mobile {
+		display: block;
+		left: -53.53%;
+		right: -35.32%;
+		top: 3.28%;
+		bottom: 66.15%;
+	}
+
+	.ghost_title {
+		height: 331px;
+		width: 440px;
+		font-family: "Playfair Display";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 64px;
+		line-height: 80px;
+		background-color: #f2f5f1;
+		left: 220px;
+		top: 483px;
+		padding: 64px 0 0 65px;
+	}
+
+	.box {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.marakesh_pc,
+	.siemreap_pc,
+	.stanbul_pc {
+		display: none;
+	}
+
+	.marakesh_mob,
+	.siemreap_mob,
+	.stanbul_mob {
+		display: block;
+		width: 188px;
+		height: 263px;
+	}
+
+	.marakesh_main,
+	.siemreap_main,
+	.stanbul_main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.marakesh,
+	.siemreap,
+	.stanbul {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 40px;
+		border-bottom: 2px solid #ed8651;
+	}
+
+	.siemreap {
+		flex-direction: row-reverse;
+	}
+
+	.stanbul {
+		border: none;
+	}
+
+	.marakesh_title,
+	.siemreap_title,
+	.stanbul_title {
+		padding: 0 0 26px 0;
+		text-align: center;
+		font-size: 21px;
+		line-height: 28px;
+		font-weight: bold;
+	}
+
+	.marakesh_text,
+	.siemreap_text,
+	.stanbul_text {
+		width: 295px;
+		height: 376px;
+		border: none;
+		padding: 0 0 0 23px;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	.marakesh_text {
+		height: 300px;
+	}
+
+	.siemreap_text {
+		padding: 0 23px 0 0;
+	}
+
+	.title_gallery {
+		margin: 79px 0 42px 0;
+	}
+
+	.footer_pc {
+		display: none;
+	}
+
+	.footer_mobile {
+		width: 100%;
+		display: block;
+	}
+
+	.footer_icons {
+		width: 100%;
+		height: 96px;
+		background: #dbe1d9;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 121px;
+	}
+
+	.footer_nav {
+		width: 100%;
+		height: 68px;
+		background-color: #16595a;
+		display: flex;
+		padding: 0 70px 0 89px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.footer_nav a {
+		text-decoration: none;
+		color: #fff;
+		font-size: 18px;
+		line-height: 60px;
+	}
+}

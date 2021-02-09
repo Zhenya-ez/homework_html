@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.container-fluid .row {
+	margin: 0;
+}
+
+#header {
+	height: 200px;
+	background: green;
+	padding: 0;
+	margin: 0;
+}
+
+.menu {
+	height: 600px;
+	background: tomato;
+	padding: 0;
+}
+
+.posts {
+	height: 600px;
+	padding: 0;
+}
+
+.post-1 {
+	height: 300px;
+	background: teal;
+}
+
+.post-2 {
+	height: 300px;
+	background: rgb(47, 128, 0);
+}
+
+.footer {
+	height: 200px;
+	background: rgb(128, 73, 0);
+}

@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrap {
+	height: 4400px;
+	background: linear-gradient(rgb(58, 170, 190), rgb(116, 93, 221));
+	padding: 0;
+}
+
+.header {
+	height: 100px;
+	background: rgb(58, 170, 190);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.row {
+	margin: 0;
+}
+
+.logo {
+	height: 50px;
+	padding: 0;
+	margin-left: 80px;
+	margin-top: -20px;
+}
+
+.wrap_menu {
+	display: flex;
+}
+
+.search {
+	padding: 0;
+	margin: 60px 20px 0 0;
+}
+
+.menu {
+	height: 100px;
+	padding: 0;
+	margin: 50px 80px 0 0;
+}
+
+.header_content {
+	position: relative;
+	height: 400px;
+	background: url(4.jpg);
+}
+
+h1 {
+	text-align: center;
+}
+
+.header_content h2 {
+	text-align: justify;
+	width: 30%;
+	margin: auto;
+	font-size: 26px;
+	position: relative;
+}
+
+.btn {
+	margin-top: 40px;
+	width: 100px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.gallery {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery img {
+	margin: 30px;
+	border-radius: 8px;
+}
+
+.title_gallery {
+	text-align: center;
+	margin-top: 200px;
+	margin-bottom: 0;
+}
+
+.gallery_main_1,
+.gallery_main_2 {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.card {
+	margin-top: 100px;
+}
+
+.title_section,
+.title_slider {
+	text-align: center;
+	margin: 100px 0 0 0;
+}
+
+.section_top,
+.section_bottom {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.section_top .card,
+.section_bottom .card {
+	width: 600px;
+	margin-top: 140px;
+}
+
+.slider {
+	width: 60%;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin-top: 100px;
+}
+
+.foto {
+	display: flex;
+
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.text {
+	margin-left: 50px;
+}
+
+.text_bottom {
+	width: 600px;
+	text-align: justify;
+}
+
+footer {
+	background: url(4.jpg);
+	position: relative;
+	height: 300px;
+	margin-top: 100px;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+}
+
+.icons img {
+	border-radius: 6px;
+	margin: 80px 10px 80px 10px;
+}
+
+h4 {
+	text-align: center;
+}

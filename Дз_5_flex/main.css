@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrap {
+	display: flex;
+	justify-content: start;
+	width: 100%;
+}
+
+.header-main {
+	border: 1px solid;
+	width: 100%;
+	height: 120px;
+	background: green;
+}
+
+.nav-main {
+	border: 1px solid;
+	width: 100%;
+	height: 60px;
+	position: relative;
+	top: 60px;
+	background: red;
+}
+
+.section-left {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: 1400px;
+	border: 1px solid;
+	background: rgb(2, 0, 128);
+}
+
+.header-left {
+	width: 100%;
+	height: 60px;
+	border: 1px solid;
+	background: yellow;
+}
+
+.nav-left {
+	width: 100%;
+	border: 1px solid;
+	height: 1280px;
+	background: rgb(36, 194, 22);
+}
+
+.footer-left {
+	width: 100%;
+	height: 60px;
+	border: 1px solid;
+	background: tomato;
+}
+
+.section-right {
+	display: flex;
+	width: 70%;
+	height: 1400px;
+	border: 1px solid;
+	flex-direction: column;
+}
+
+.header-right {
+	width: 100%;
+	height: 60px;
+	border: 1px solid;
+	display: flex;
+	background: rebeccapurple;
+}
+
+.article-top {
+	width: 100%;
+	border: 1px solid;
+	height: 800px;
+	background: rgb(141, 3, 123);
+}
+
+.article-header {
+	width: 100%;
+	border: 1px solid;
+	height: 200px;
+	background: rgb(0, 128, 128);
+}
+
+.text {
+	width: 100%;
+	border: 1px solid;
+	height: 200px;
+	background: rgb(38, 0, 128);
+}
+
+.text-2 {
+	width: 100%;
+	border: 1px solid;
+	height: 200px;
+	background: rgb(128, 0, 60);
+}
+
+.article-footer {
+	width: 100%;
+	border: 1px solid;
+	height: 200px;
+	background: rgb(42, 46, 251);
+}
+
+.article-bottom {
+	width: 100%;
+	height: 480px;
+	border: 1px solid;
+	background: rgb(0, 128, 17);
+}
+
+.article-header-bottom {
+	width: 100%;
+	height: 60px;
+	border: 1px solid;
+	background: rgb(128, 0, 111);
+}
+
+.text-3 {
+	width: 50%;
+	height: 300px;
+	border: 1px solid;
+	background: rgb(0, 128, 28);
+}
+
+.aside {
+	width: 50%;
+	height: 300px;
+	border: 1px solid;
+	background: rgb(2, 0, 128);
+}
+
+.wrap-bottom {
+	display: flex;
+	width: 100%;
+	height: 300px;
+	border: 1px solid;
+	background: rgb(128, 0, 32);
+}
+
+.article-footer-bottom {
+	width: 100%;
+	border: 1px solid;
+	height: 60px;
+	background: rgb(119, 128, 0);
+}
+
+.section-footer {
+	width: 100%;
+	border: 1px solid;
+	height: 60px;
+	background: rgb(19, 0, 128);
+}
+
+.footer-main {
+	width: 100%;
+	border: 1px solid;
+	height: 100px;
+	background: rgb(128, 0, 122);
+}
